@@ -37,6 +37,8 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
 
 gem "font-awesome-rails"
 gem 'bootstrap-sass', '~> 3.3.4'
